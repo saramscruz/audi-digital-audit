@@ -1,0 +1,8 @@
+stage,sessions,pct_of_entry,step_retention_pct
+S0 Session Start,354857,100.0,
+S1 Browsed Catalogue,59,0.0,0.0
+S2 Product View,77020,21.7,130542.4
+S3 Add to Cart,15188,4.3,19.7
+S4 Begin Checkout,11106,3.1,73.1
+S5 Payment Info,6815,1.9,61.4
+S6 Purchase,4848,1.4,71.1

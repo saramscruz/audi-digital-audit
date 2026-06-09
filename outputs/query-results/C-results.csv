@@ -1,0 +1,19 @@
+device,channel,sessions,purchases,cvr_from_product_view
+desktop,organic,14906,725,4.86
+desktop,(none),10402,610,5.86
+desktop,referral,8172,573,7.01
+desktop,(data deleted),3346,387,11.57
+desktop,<Other>,6116,280,4.58
+desktop,cpc,1877,95,5.06
+mobile,organic,10264,558,5.44
+mobile,(none),6910,423,6.12
+mobile,referral,5604,422,7.53
+mobile,(data deleted),2296,274,11.93
+mobile,<Other>,4211,199,4.73
+mobile,cpc,1216,52,4.28
+tablet,(none),366,23,6.28
+tablet,referral,314,23,7.32
+tablet,organic,570,21,3.68
+tablet,(data deleted),113,16,14.16
+tablet,<Other>,262,14,5.34
+tablet,cpc,75,3,4.0
