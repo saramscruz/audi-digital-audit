@@ -42,6 +42,8 @@ It is **not** an analysis of Audi's internal analytics. No one outside Audi has 
 
 Full citations with URLs: [data-sources.md](data-sources.md)
 
+Framework repository: https://github.com/saramscruz/automotive-digital-audit-framework
+
 ---
 
 ## Project Structure
