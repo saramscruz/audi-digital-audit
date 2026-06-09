@@ -314,6 +314,50 @@
     font-weight: 500;
   }
 
+  /* AMPLIFIERS — subordinate supporting points under a finding */
+  .amplifiers {
+    margin-top: 24px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border);
+  }
+
+  .amplifiers-label {
+    font-family: var(--font-cond);
+    font-size: 10px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--text-dim);
+    margin-bottom: 16px;
+  }
+
+  .amplifier-item {
+    padding: 12px 0 12px 16px;
+    border-left: 2px solid var(--border);
+    margin-bottom: 10px;
+  }
+
+  .amplifier-item:last-child { margin-bottom: 0; }
+
+  .amplifier-title {
+    font-family: var(--font-cond);
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    color: var(--text-mid);
+    margin-bottom: 5px;
+  }
+
+  .amplifier-body {
+    font-size: 12px;
+    color: var(--text-dim);
+    line-height: 1.7;
+  }
+
+  .amplifier-body strong {
+    color: var(--text-mid);
+    font-weight: 500;
+  }
+
   /* ALERT */
   .alert {
     margin-top: 48px;
@@ -498,6 +542,17 @@
       <div>
         <p class="finding-title">The Q3 has the demand — the funnel only has a dealer form</p>
         <p class="finding-body">The Q3 is at <strong>+2,000% on YouTube Portugal and BREAKOUT</strong> in web search. The configurator on configurador.audi.pt is genuinely low-friction: 5 steps, price visible throughout from step 1, lead form requiring only name and contact preference — 3 fields, well below the conversion drop-off threshold. The problem is not the form. It is what the form leads to: a dealer handoff, nothing else. No online reservation. No way to act on completed intent outside dealer hours. BMW offers an online reservation path on the i4. Audi offers none on the Q3.</p>
+        <div class="amplifiers">
+          <p class="amplifiers-label">What amplifies the gap</p>
+          <div class="amplifier-item">
+            <p class="amplifier-title">Re-engagement windows are too short</p>
+            <p class="amplifier-body">Converters take a median of <strong>3 sessions and 129 hours</strong> from first visit to purchase. A standard 24-hour retargeting window discards the majority of eventual buyers before they convert. This is a campaign settings change — not a creative problem — and costs nothing to test. For Audi specifically, where the carLOG save barrier suppresses return visits, extending the re-engagement window is the higher-priority lever.</p>
+          </div>
+          <div class="amplifier-item">
+            <p class="amplifier-title">Fix CPC mobile landing pages, not mobile broadly</p>
+            <p class="amplifier-body">Mobile referral already outperforms desktop (7.53% vs 7.01%). The CPC gap — <strong>mobile 4.28% vs desktop 5.06%</strong> — is where the problem concentrates. The Q3 configurator on configurador.audi.pt is functionally identical on desktop and mobile (observed June 2026): current step name visible, full sequence accessible via dropdown tap. The friction is upstream, in the paid landing experience before the configurator is reached.</p>
+          </div>
+        </div>
       </div>
     </div>
     <div class="finding">
@@ -512,20 +567,6 @@
       <div>
         <p class="finding-title">Some buyers are not reaching the funnel at all</p>
         <p class="finding-body"><strong>importrust at +140%</strong> in Audi's rising purchase-intent queries in Portugal signals that a measurable share of high-intent buyers is routing to grey-market import channels before engaging with audi.pt. This leakage is invisible to GA4 — it does not show up in any internal analytics report. It only appears in search signals. The question is not how to convert these users; they have already converted somewhere else.</p>
-      </div>
-    </div>
-    <div class="finding">
-      <span class="finding-num">04</span>
-      <div>
-        <p class="finding-title">Re-engagement windows are too short</p>
-        <p class="finding-body">Converters take a median of <strong>3 sessions and 129 hours</strong> from first visit to purchase. A standard 24-hour retargeting window discards the majority of eventual buyers before they convert. This is a campaign settings change — not a creative problem — and costs nothing to test. For Audi specifically, where the carLOG save barrier suppresses return visits, extending the re-engagement window is the higher-priority lever.</p>
-      </div>
-    </div>
-    <div class="finding">
-      <span class="finding-num">05</span>
-      <div>
-        <p class="finding-title">Fix CPC mobile landing pages, not mobile broadly</p>
-        <p class="finding-body">Mobile referral already outperforms desktop (7.53% vs 7.01%). The CPC gap — <strong>mobile 4.28% vs desktop 5.06%</strong> — is where the problem concentrates. The Q3 configurator on configurador.audi.pt is functionally identical on desktop and mobile (observed June 2026): current step name visible, full sequence accessible via dropdown tap. The friction is upstream, in the paid landing experience before the configurator is reached.</p>
       </div>
     </div>
   </div>
